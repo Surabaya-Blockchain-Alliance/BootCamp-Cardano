@@ -1,5 +1,5 @@
 ## Overview
-This bootcamp is designed for anyone interested in building smart contracts on the Cardano blockchain using Aiken and Plutus. Whether you are a beginner or an experienced developer, this program will provide you with hands-on experience through interactive workshops, collaborative projects, and engaging discussions. By the end of the bootcamp, you will be equipped to deploy your own smart contracts.
+This bootcamp is designed for anyone interested in building smart contracts on the Cardano blockchain using Aiken and Plutus. Whether you are a beginner or an experienced on another chain developer, this program will provide you with hands-on experience through interactive workshops, collaborative projects, and engaging discussions. By the end of the bootcamp, you will be equipped to deploy your own smart contracts.
 
 ## Bootcamp Structure
 - **Duration**: 4 Weeks
@@ -63,9 +63,8 @@ This bootcamp is designed for anyone interested in building smart contracts on t
 ---
 
 ## Resources
-- **Official Documentation**: Links to Aiken and Plutus documentation.
-- **Community Forums**: Links to Discord, Reddit, and other relevant platforms for ongoing support.
-- **Recommended Reading**: Accessible books and articles on Cardano, Aiken, and smart contract development.
+- **Official Documentation**: [Links to Aiken](https://aiken-lang.org/fundamentals/getting-started) and [Plutus documentation](https://docs.cardano.org/developer-resources/smart-contracts/plutus/).
+- **Community Forums**: Discord, Reddit, and other relevant platforms for ongoing support.
 
 ## Support and Feedback
 - Regular Q&A sessions to address any questions or concerns.
