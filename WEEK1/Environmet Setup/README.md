@@ -6,26 +6,46 @@ First, install **Aikup**, a basic cross-platform utility tool to download and ma
 
 Install Aikup :
 
-## NPM
+### NPM
 ```bash
 npm install -g @aiken-lang/aikup
 ```
 
-## HomeBrew
+### HomeBrew
 ```bash
 brew install aiken-lang/tap/aikup
 ```
 
-## From url (Linux & MacOS)
+### From url (Linux & MacOS)
 ```bash
 curl --proto '=https' --tlsv1.2 -LsSf https://install.aiken-lang.org | sh
 ```
 
-# From url Windows
+### From url Windows
 ```bash
 powershell -c "irm https://windows.aiken-lang.org | iex"
 ```
 
+## Manually Install Aiken
+
+### From NPM
+```bash
+npm install -g @aiken-lang/aiken
+```
+### HomeBrew
+```bash
+brew install aiken-lang/tap/aiken
+```
+
+### From Source
+```bash
+From sources (All platform)
+```
+
+### From Nix flakes (Linux & MacOS only)
+```bash
+nix build github:aiken-lang/aiken#aiken
+```
 # Language Server
 
 The `aiken` command-line tool comes with a built-in Language Server. If needed, configure your language client with the following settings (refer to your language client’s documentation for specific instructions):
@@ -35,6 +55,14 @@ The `aiken` command-line tool comes with a built-in Language Server. If needed, 
 - **Filetype**: `aiken` (`.ak`)
 
 The Language Server supports a variety of capabilities (though not all). For more details, please refer to the [supported capabilities](https://github.com/aiken-lang/aiken/blob/main/README.md#language-server) in the main repository.
+
+Started and create new project using Aiken:
+
+```bahs
+aiken new bootcamp/helloworld
+```
+
+To help you get started, here's a sample file tree structure for an Aiken project:
 
 ## Sample Project File Tree
 
@@ -46,8 +74,5 @@ my-aiken-project/
 │   └── bar              # Subdirectory for specific library functions
 └── validators           # Directory for smart contract validators
 ```
-
-To help you get started, here's a sample file tree structure for an Aiken project:
-
 
 
