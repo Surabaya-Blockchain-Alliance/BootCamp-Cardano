@@ -14,7 +14,7 @@ This bootcamp is designed for anyone interested in building smart contracts on t
 - Setting Up Your Development Environment
 
 ### Activities:
-- Guided installation of necessary tools (Haskell, Aiken, etc.)
+- Guided installation of necessary tools (Haskell, Aiken, cargo, Nix.)
 - Join community forums and discussion groups for support and networking.
 
 ### Deliverables:
